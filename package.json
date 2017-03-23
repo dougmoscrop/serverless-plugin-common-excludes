@@ -1,0 +1,26 @@
+{
+  "name": "serverless-plugin-common-excludes",
+  "version": "1.0.0",
+  "description": "Adds some common exclude items to your package exclude",
+  "main": "common-excludes.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougmoscrop/serverless-plugin-common-excludes.git"
+  },
+  "keywords": [
+    "serverless",
+    "plugin"
+  ],
+  "author": "Doug Moscrop <doug.moscrop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dougmoscrop/serverless-plugin-common-excludes/issues"
+  },
+  "homepage": "https://github.com/dougmoscrop/serverless-plugin-common-excludes#readme",
+  "devDependencies": {
+    "eslint": "^3.18.0"
+  }
+}
