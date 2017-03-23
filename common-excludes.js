@@ -34,7 +34,6 @@ module.exports = class CommonExcludes {
         // common project directories
         'coverage/**',
         '.nyc_output/**',
-        'circle/**',
         'docs/**',
         'test/**',
         // aws-sdk is included in Lambda
