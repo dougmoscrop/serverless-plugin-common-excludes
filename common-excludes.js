@@ -50,6 +50,9 @@ module.exports = class CommonExcludes {
         'node_modules/**/docs/**',
         'node_modules/**/examples/**',
         'node_modules/**/bin/**',
+        'node_modules/**/bower.json',
+        'node_modules/**/karma.conf.js',
+        'node_modules/**/Gruntfile.js',
         // yes, these are real
         'node_modules/**/*.gif',
         'node_modules/**/*.png',
