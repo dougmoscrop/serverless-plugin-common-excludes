@@ -7,7 +7,7 @@ module.exports = class CommonExcludes {
     this.options = options;
     this.hooks = {
       'after:deploy:function:initialize': this.addExcludes.bind(this),
-      'after:deploy:initialize': this.addExcludes.bind(this)
+      'after:package:initialize': this.addExcludes.bind(this)
     };
   }
 
