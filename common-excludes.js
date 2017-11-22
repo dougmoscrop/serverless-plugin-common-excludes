@@ -28,6 +28,7 @@ module.exports = class CommonExcludes {
         '.eslintrc',
         '.npmrc',
         '.npmignore',
+        '*coveralls.yml',
         '*circle.yml',
         '*travis.yml',
         '*.md',
