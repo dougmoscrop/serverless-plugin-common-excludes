@@ -27,11 +27,16 @@ module.exports = class CommonExcludes {
         '.eslintignore',
         '.eslintrc',
         '.npmrc',
+        '.nycrc',
         '.npmignore',
         '*coveralls.yml',
+        '.circleci/**',
         '*circle.yml',
         '*travis.yml',
         '*.md',
+        'package-lock.json',
+        '.npm-upgrade.json',
+        'sonar-project.properties',
         // common project directories
         'coverage/**',
         '.nyc_output/**',
@@ -58,7 +63,9 @@ module.exports = class CommonExcludes {
         'node_modules/**/*.gif',
         'node_modules/**/*.png',
         'node_modules/**/*.jpg',
-        'node_modules/**/*.jpeg'
+        'node_modules/**/*.jpeg',
+        // module-specific odd things
+        'node_modules/**/winston/scratch/**'
       ])
     ));
   }
