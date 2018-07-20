@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-common-excludes",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Adds some common exclude items to your package exclude",
   "main": "common-excludes.js",
   "scripts": {
