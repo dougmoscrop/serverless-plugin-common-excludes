@@ -65,7 +65,9 @@ module.exports = class CommonExcludes {
         'node_modules/**/*.jpg',
         'node_modules/**/*.jpeg',
         // module-specific odd things
-        'node_modules/**/winston/scratch/**'
+        'node_modules/**/winston/scratch/**',
+        // yarn files
+        'yarn.lock'
       ])
     ));
   }
