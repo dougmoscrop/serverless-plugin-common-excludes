@@ -9,6 +9,3 @@ extends:
 
 parserOptions:
     sourceType: "scripts"
-
-ecmaFeatures:
-    generators: true
