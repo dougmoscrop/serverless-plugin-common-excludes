@@ -47,6 +47,7 @@ module.exports = class CommonExcludes {
         'docs/**',
         'test/**',
         'tests/**',
+        'CODEOWNERS',
         // aws-sdk is included in Lambda
         'node_modules/**/aws-sdk/**',
         // common things that node_modules fail to .npmignore
