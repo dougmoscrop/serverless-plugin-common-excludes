@@ -34,6 +34,8 @@ module.exports = class CommonExcludes {
         '*circle.yml',
         '*travis.yml',
         '*.md',
+        '*.apib',
+        '.vscode/**',
         'package-lock.json',
         '.npm-upgrade.json',
         'sonar-project.properties',
