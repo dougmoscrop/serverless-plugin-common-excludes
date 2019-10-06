@@ -33,6 +33,7 @@ module.exports = class CommonExcludes {
         '.circleci/**',
         '*circle.yml',
         '*travis.yml',
+        '.gitlab-ci.yml',
         '*.md',
         '*.apib',
         '.vscode/**',
