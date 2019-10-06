@@ -48,8 +48,6 @@ module.exports = class CommonExcludes {
         'test/**',
         'tests/**',
         'CODEOWNERS',
-        // aws-sdk is included in Lambda
-        'node_modules/**/aws-sdk/**',
         // common things that node_modules fail to .npmignore
         'node_modules/**/*.md',
         'node_modules/**/*.flow',
@@ -84,12 +82,6 @@ module.exports = class CommonExcludes {
         'node_modules/**/AUTHORS',
         'node_modules/**/CODEOWNERS',
         'node_modules/**/OWNERS',
-        'node_modules/**/license*',
-        'node_modules/**/licence*',
-        'node_modules/**/LICENSE*',
-        'node_modules/**/LICENCE*',
-        'node_modules/**/License*',
-        'node_modules/**/Licence*',
         'node_modules/**/*.iml',
         'node_module/**/*.bash_completion.in',
         // yes, these are real
@@ -103,6 +95,9 @@ module.exports = class CommonExcludes {
         'node_modules/**/bluebird/js/browser/**',
         'node_modules/**/date-fns/docs.json',
         'node_modules/**/aws-xray-sdk-core/doc-src/**',
+        // AWS SDK unused dist files
+        'node_modules/**/aws-sdk/dist/**',
+        'node_modules/**/aws-sdk/dist-tools/**',
       ])
     ));
   }
