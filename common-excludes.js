@@ -40,6 +40,7 @@ module.exports = class CommonExcludes {
         'package-lock.json',
         '.npm-upgrade.json',
         'sonar-project.properties',
+        'sonar-coverage.info',
         'rollup.config.*',
         'yarn.lock',
         // common project directories
