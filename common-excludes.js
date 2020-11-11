@@ -66,7 +66,6 @@ module.exports = class CommonExcludes {
         'node_modules/**/*.html',
         'node_modules/**/test/**',
         'node_modules/**/tests/**',
-        'node_modules/**/docs/**',
         'node_modules/**/examples/**',
         'node_modules/**/coverage/**',
         'node_modules/**/.nyc_output/**',
