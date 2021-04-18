@@ -96,9 +96,13 @@ module.exports = class CommonExcludes {
         'node_modules/**/bluebird/js/browser/**',
         'node_modules/**/date-fns/docs.json',
         'node_modules/**/aws-xray-sdk-core/doc-src/**',
-        // AWS SDK unused dist files
+        // AWS SDK unused files
         'node_modules/**/aws-sdk/dist/**',
         'node_modules/**/aws-sdk/dist-tools/**',
+        'node_modules/**/aws-sdk/**/*.d.ts',
+        'node_modules/**/aws-sdk/**/*.examples.json',
+        'node_modules/**/aws-sdk/**/*.md',
+        'node_modules/**/aws-sdk/scripts/**'
       ])
     ));
   }
