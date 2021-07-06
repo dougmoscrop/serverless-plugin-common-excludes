@@ -1,5 +1,7 @@
 # serverless-plugin-common-excludes
 
+4.0.0 switches to the package.patterns property instead of include/exclude
+
 > Note: This plugin no longer excludes the `aws-sdk` which is in line with AWS best practices (bring your own SDK).
 
 This plugin adds some common unnecessary items (such as docs, test code, unused configuration files, etc.) to the `package: exclude` configuration of your Serverless project to make it smaller.
