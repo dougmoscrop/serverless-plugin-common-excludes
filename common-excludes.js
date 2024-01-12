@@ -23,9 +23,7 @@ module.exports = class CommonExcludes {
     service.package = service.package || {};
     service.package.patterns = service.package.patterns || [];
 
-    const set = new Set(service.package.patterns);
-
-    [
+    const set = new Set([
       // common project files
       '!.gitignore',
       '!.gitconfig',
@@ -105,11 +103,15 @@ module.exports = class CommonExcludes {
       // AWS SDK unused dist files
       '!node_modules/**/aws-sdk/dist/**',
       '!node_modules/**/aws-sdk/dist-tools/**',
-    ].forEach(pattern => {
+    ]);
+
+    service.package.patterns.forEach(pattern => {
       if (set.has(pattern)) {
         return;
       }
-      service.package.patterns.push(pattern);
+      set.add(pattern);
     });
+
+    service.package.patterns = [...set];
   }
 };
